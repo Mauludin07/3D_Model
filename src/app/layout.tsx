@@ -4,14 +4,14 @@ import "./globals.css";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
+  subsets: ["latin", "France", "English"],
+  weight: ["400", "500", "600", "700", "800", "900", "1000", "1100"],
 });
 
 export const metadata: Metadata = {
   title: "DirectTrack — Control Vehicular y Personal",
   description:
-    "Catálogo interactivo de soluciones de rastreo GPS y telemática para flotas vehiculares en México.",
+    "Catálogo interactivo de soluciones de rastreo GPS y telemática para flotas vehiculares en México. GPS",
 };
 
 export default function RootLayout({
